@@ -1,0 +1,542 @@
+/**************************** Estilo Geral*/
+
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+.topo, .banner, .anuncio, .info, #planos, .anuncio2, #contato, .rodape, .preco-page2 {
+    width: 100%;
+}
+
+/**************************** Estilo Topo*/
+
+.container-topo {
+    background-color: white;
+    padding: 35px 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-logo {
+    max-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-links {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-links a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #233032;
+}
+
+.container-logo-imagem {
+    width: 100%;
+    height: 80px;
+    margin-right: 10px;
+}
+.container-logo-imagem img {
+    width: 80px;
+    height: 100%;
+}
+
+.container-logo p {
+    width: 285px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2f86d6;
+}
+
+/**************************** Estilo Banner*/
+
+.secao-banner {
+    background-color: #2f86d6;
+    padding: 50px 0px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-texto {
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex: 1 1 300px;
+}
+
+.container-imagem {
+    flex: 1 1 468px; 
+}
+
+.container-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+/**************************** Estilo Anúncio 1*/
+ 
+.anuncio {
+    height: auto;
+    background-color: #233032;
+    color: #fff;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.container-anuncio-1 {
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-anuncio-1 h3, p {
+    text-align: left;
+}
+
+
+.container-anuncio-1 p {
+    font-size: 16px;
+}
+
+
+.direc a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    background-color: #2f86d6;
+    padding: 12px 15px 12px 50px;
+}
+
+.direc img {
+    position: absolute;
+    right: 170px;
+    top:19px;
+    z-index: 1;
+}
+
+
+/**************************** Estilo Informações*/
+
+.info {
+    height: 460px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 50px;
+}
+
+.container-info {
+    width: 1080px;
+    height: 420px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-info img {
+    width: 90px;
+}
+
+.info-1, .info-2, .info-3 {
+    width: 320px;
+    text-align: center;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.info-1 {
+    left: 0;
+    top: 100px;
+}
+
+.info-2 {
+    left: 370px;
+    top: 100px;
+}
+
+.info-3 {
+    right: 0;
+    top: 100px;
+}
+
+.container-info p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.destaque {
+    color: #2f86d6;
+}
+
+
+/**************************** Estilo Planos*/
+
+#planos {
+    height: 820px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f6f6f6;
+}
+
+.container-planos {
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.container-planos img {
+    width: 80px;
+}
+
+.container-planos table {
+    margin: 70px 0;
+    border-radius: 6px;
+    background-color: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 0 50px 5px #2f86d6;
+}
+
+.container-planos td, th {
+    width: 270px;
+    margin: 70px;
+    padding: 18px;   
+}
+
+tr td:last-child, tr th:last-child {
+    border-right: none;
+}
+
+.color {
+    border: 2px solid #f6f6f6;
+}
+
+.uncolor {
+    border-right: 2px solid #f6f6f6;
+}
+
+.descricao {
+    font-size: 12px;
+    color: #000000;
+}
+
+.destacar {
+    background-color: #f6f6f6;
+}
+
+/**************************** Estilo Anúncio 2*/
+ 
+.anuncio2 {
+    height: auto;
+    background-color: #2f86d6;
+    color: #fff;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.container-anuncio-2 {
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-anuncio-2 h3, p {
+    text-align: left;
+}
+
+
+.container-anuncio-2 p {
+    font-size: 16px;
+}
+
+.direc2 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    background-color: #233032;
+    padding: 12px 15px 12px 50px;
+}
+
+.direc2 img {
+    position: absolute;
+    right: 170px;
+    top:19px;
+    z-index: 1;
+}
+
+/**************************** Estilo Contato*/
+
+
+#contato {
+    height: 350px;
+    text-align: center;
+}
+
+.container-contato {
+    max-width: 1080px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    left: 430px;
+    top: 0px;
+}
+
+.logo img {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: -50px;
+}
+
+.logo h1 {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+.logo p {
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    color: #2f86d6;
+}
+
+.infos-contato {
+    text-align: center;
+    margin: 80px auto 0 auto;
+}
+
+.infos-contato p {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/**************************** Estilo Rodapé*/
+
+.rodape p {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+/**************************** Estilo Página*/
+/**************************** Estilo Topo*/
+
+.container-topo2 {
+    background-color: #2f86d6;
+    padding: 35px 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-logo2 {
+    max-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-links2 {
+    max-width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container-links2 a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-logo-imagem2 {
+    width: 100%;
+    height: 80px;
+    margin-right: 10px;
+}
+.container-logo-imagem2 img {
+    width: 80px;
+    height: 100%;
+}
+
+.container-logo2 p {
+    width: 285px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+/**************************** Estilo Preço*/
+
+.preco-page2 {
+    max-width: 1080px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container-preco2 {
+    margin: 90px auto;
+}
+
+.container-preco2 table {
+    border-collapse: collapse;
+    border-right: 2px solid #f6f6f6;
+    border-bottom: 2px solid #f6f6f6;
+}
+
+.cinzath{
+    background-color: #f6f6f6;
+    font-size: 12px;
+    font-weight: normal;
+    color: #8a8a8a;
+}
+
+.cinzath span{
+    background-color: #f6f6f6;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+.cinza{
+    background-color: #f6f6f6;
+    width: 216px;
+    border: 2px solid #fff;
+    font-weight: bold;
+}
+
+.normal {
+    border: 2px solid #f6f6f6;
+
+}
+
+td {
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+}
+
+th {
+    border: 2px solid #fff;
+}
+
+.pontos {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #2f86d6
+}
+
+/**************************** Estilo Contato*/
+
+
+#contato-page2 {
+    height: 300px;
+    text-align: center;
+    background-color: #2f86d6;
+}
+
+.container-contato-page2 {
+    max-width: 1080px;
+    text-align: center;
+    position: relative;
+    margin: 0px auto;
+}
+
+.logo-page2 {
+    position: absolute;
+    left: 430px;
+    top: 0px;
+}
+
+.logo-page2 img {
+    width: 100px;
+    position: absolute;
+    top: 70px;
+    left: -50px;
+}
+
+.logo-page2 h1 {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+}
+
+.logo-page2 p {
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    color: #fff;
+}
+
+.infos-contato-page2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.infos-contato-page2 p {
+    text-align: center;
+    position: relative;
+    top: 180px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/**************************** Estilo Rodapé*/
+
+.rodape-page2 p {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 12px;
+}
